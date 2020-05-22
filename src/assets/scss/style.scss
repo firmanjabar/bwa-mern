@@ -42,3 +42,56 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+
+.brand-text-icon {
+    font-family: 'Sacramento', cursive;
+    font-size: 34px;
+    font-weight: 500;
+    color: $gray-900;
+    margin-top: 13px;
+
+    &:hover {
+        color: $gray-900;
+        text-decoration: none;
+    }
+}
+
+.collapse.navbar-collapse.show {
+    margin-top: 1rem;
+}
+
+header {
+    border-bottom: 1px solid $gray-200;
+    width: 100%;
+
+    .navbar {
+        height: 80px;
+
+        .navbar-toggler {
+            margin-top: 5px;
+        }
+
+        ul.navbar-nav {
+            li.nav-item {
+                &.active {
+                    a.nav-link {
+                        color: $primary;
+                    }
+                }
+
+                a {
+                    &.nav-link {
+                        letter-spacing: 1px;
+                        color: $gray-900;
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

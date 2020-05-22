@@ -17,7 +17,7 @@ test("Should render loading/spinner", () => {
 });
 
 test("Should render <a> tag", () => {
-  const { container } = render(<Button types="link" isExternal></Button>);
+  const { container } = render(<Button type="link" isExternal></Button>);
 
   expect(container.querySelector("a")).toBeInTheDocument();
 });
@@ -25,7 +25,7 @@ test("Should render <a> tag", () => {
 test("Should render link component (<Link>)", () => {
   const { container } = render(
     <Router>
-      <Button href="" types="link"></Button>
+      <Button href="" type="link"></Button>
     </Router>
   );
 
@@ -33,14 +33,14 @@ test("Should render link component (<Link>)", () => {
 });
 
 test("Should render <button> tag", () => {
-  const { container } = render(<Button types="button"></Button>);
+  const { container } = render(<Button type="button"></Button>);
 
   expect(container.querySelector("button")).toBeInTheDocument();
 });
 
 test("Should render <button> tag primary and large", () => {
   const { container } = render(
-    <Button types="button" isPrimary isLarge></Button>
+    <Button type="button" isPrimary isLarge></Button>
   );
 
   expect(

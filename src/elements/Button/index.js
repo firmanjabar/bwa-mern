@@ -30,7 +30,7 @@ export default function Button(props) {
     );
   }
 
-  if (props.types === "link") {
+  if (props.type === "link") {
     if (props.isExternal) {
       return (
         <a
@@ -69,7 +69,7 @@ export default function Button(props) {
 }
 
 Button.propTypes = {
-  types: propTypes.oneOf(["button", "link"]),
+  type: propTypes.oneOf(["button", "link"]),
   onClick: propTypes.func,
   target: propTypes.string,
   className: propTypes.string,
