@@ -15,12 +15,12 @@ export default function Hero(props) {
   return (
     <section className="container pt-4">
       <div className="row align-items-center">
-        <div className="col-auto pr-5" style={{ width: 550 }}>
+        <div className="col-auto part1">
           <h1 className="font-weight-bold line-height-1 mb-3">
             Good Food is <br />A{" "}
             <span className="text-primary">Good Mood.</span>
           </h1>
-          <p className="font-weight-light mb-5 text-gray-600 w-75">
+          <p className="font-weight-light mb-5 text-gray-600">
             Food is the ingredient that bind us together! And nothing brings
             people together like Good Food!
           </p>
@@ -33,8 +33,8 @@ export default function Hero(props) {
             I'm Hungry
           </Button>
         </div>
-        <div className="col-6 pl5">
-          <div style={{ width: 500, height: 400 }}>
+        <div className="col-auto part2">
+          <div className="ImgHero">
             <img
               src={ImgHero}
               alt="strawberry cake"
