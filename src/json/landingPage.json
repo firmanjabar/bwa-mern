@@ -1,59 +1,49 @@
 {
-  "hero": {
-    "travelers": 80409,
-    "treasures": 882,
-    "cities": 1492
-  },
-  "mostPicked": [
+  "mostFav": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-1.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "The People House",
-      "type": "Hotel",
-      "imageUrl": "/images/image-mostpicked-2.jpg",
-      "country": "Indonesia",
-      "city": "Bogor",
+      "name": "Putri Salju",
+      "type": "Cake",
+      "imageUrl": "/images/mf-1.jpg",
+      "ingridient": "Tepung, air, gula, gula halus, telor.",
       "price": "52",
-      "unit": "night"
+      "unit": "pcs"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "House Tour",
-      "type": "Rumah",
-      "imageUrl": "/images/image-mostpicked-3.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "name": "Putri Salju",
+      "type": "Cake",
+      "imageUrl": "/images/mf-2.jpg",
+      "ingridient": "Tepung, air, gula, gula halus, telor.",
+      "price": "52",
+      "unit": "pcs"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-4.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "name": "Putri Salju",
+      "type": "Cake",
+      "imageUrl": "/images/mf-3.jpg",
+      "ingridient": "Tepung, air, gula, gula halus, telor.",
+      "price": "52",
+      "unit": "pcs"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-5.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "name": "Putri Salju",
+      "type": "Cake",
+      "imageUrl": "/images/mf-4.jpg",
+      "ingridient": "Tepung, air, gula, gula halus, telor.",
+      "price": "52",
+      "unit": "pcs"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Putri Salju",
+      "type": "Cake",
+      "imageUrl": "/images/mf-5.jpg",
+      "ingridient": "Tepung, air, gula, gula halus, telor.",
+      "price": "52",
+      "unit": "pcs"
     }
   ],
   "categories": [
